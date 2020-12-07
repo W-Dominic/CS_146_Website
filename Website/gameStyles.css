@@ -1,0 +1,100 @@
+.row{
+    display:flex;
+    
+}
+
+.column{
+   display: flex;
+}
+
+body{
+    background-color: #19b8e6;
+    color: #D8DEE9;    
+}
+
+h1{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 35pt;
+    padding: 20px;
+    background-color: #3b6aa3;
+}
+
+h2, h3{
+   font-family: Tahoma, Geneva, sans-serif; 
+}
+
+.button{
+    color: #D8DEE9;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    
+}
+
+
+
+@media only screen and (min-width: 999px) {
+    .column {
+        flex: 33.33%;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        padding: 40px;
+        font-family: "Lucida Console", Courier, monospace;
+        background-color: #3b6aa3;
+    }
+    .row {
+        flex-grow: 1;  
+    }
+    
+}
+
+@media only screen and (min-width: 400px) and (max-width: 998px){
+    header {
+        justify-content: center;   
+    }
+   .column {
+        flex: 33.33%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; 
+        padding: 40px;
+        font-family: "Lucida Console", Courier, monospace;
+        background-color: #3b6aa3;
+    }
+    .row{
+        flex-direction: column; 
+    }
+    
+}
+
+
+@media only screen and (max-width: 399px){
+
+    header {
+        flex-direction:  column;
+        text-align: center;
+    }
+   .column {
+        flex-basis: auto;
+        flex direction: column; 
+        justify-content: center; 
+        padding: 40px;
+        font-family: "Lucida Console", Courier, monospace;
+        background-color: #3b6aa3;
+    }
+    
+    .row{
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+

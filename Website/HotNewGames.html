@@ -1,85 +1,163 @@
 <!DOCTYPE html>
+
 <html>
 <body>
+<link rel="stylesheet" type= "text/css" href="gameStyles.css">
+    <script src= Games.js> </script>
+    
 <center>
-<h1> Hot New Games </h1>
+    <h1> Hot New Games </h1>
 
-<h3> Here are our suggestions for this week:</h3>
+    <h3> Here are our suggestions for this week:</h3>
+</center> 
+
+<center>
+    <div class="button">
+        <a href= "index.html"><button>HOMEPAGE</button></a>
+    </div>
 </center>
-<a href="index.html"><button>HOMEPAGE</button></a>
-<div class ="Table 1">
-<table style="width:100%">
-    <tr>
-        <th>Hot New Game 1</th>
-    </tr>
-    <tr>
-        <td><img src="PlayTrailer.png" alt="Play Trailer" style="width:200px;height:100px;"></td>
-        <td><strong>Summary: </strong> Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-        <td><strong>Pros and Cons: </strong>Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-    </tr>
- </table>
-</div>
     
-<br>  
-<div class ="Table 2">
-<table style="width:100%">
-    <tr>
-        <th>Hot New Game 2</th>
-    </tr>
-    <tr>
-        <td><img src="PlayTrailer.png" alt="Play Trailer" style="width:200px;height:100px;"></td>
-        <td><strong>Summary: </strong> Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-        <td><strong>Pros and Cons: </strong>Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-    </tr>
- </table>
-</div>
  
-<br> 
-<div class ="Table 3">
-<table style="width:100%">
-    <tr>
-        <th>Hot New Game 3</th>
-    </tr>
-    <tr>
-        <td><img src="PlayTrailer.png" alt="Play Trailer" style="width:200px;height:100px;"></td>
-        <td><strong>Summary: </strong> Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-        <td><strong>Pros and Cons: </strong>Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-    </tr>
- </table>
-</div>
- 
-<br>
-<div class ="Table 4">
-<table style="width:100%">
-    <tr>
-        <th>Hot New Game 4</th>
-    </tr>
-    <tr>
-        <td><img src="PlayTrailer.png" alt="Play Trailer" style="width:200px;height:100px;"></td>
-        <td><strong>Summary: </strong> Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-        <td><strong>Pros and Cons: </strong>Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-    </tr>
- </table>
-</div>
+<h2>Valorant</h2>  
 
-<br>
-<div class ="Table 5">
-<table style="width:100%">
-    <tr>
-        <th>Hot New Game 5</th>
-    </tr>
-    <tr>
-        <td><img src="PlayTrailer.png" alt="Play Trailer" style="width:200px;height:100px;"></td>
-        <td><strong>Summary: </strong> Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-        <td><strong>Pros and Cons: </strong>Lorem ipsum dolor sit amet, qui oportere interesset ei, minim dictas definiebas mei te. Aeterno delicatissimi usu te, duo et simul vocibus. An vim mollis oblique, sit iuvaret posidonium at. Vim cu soleat appellantur, doctus theophrastus vim ad, te nostro blandit concludaturque eos.</td>
-    </tr>
- </table>
-</div>
-<br>
-<br>
+    <div class ="row">
+        <div class="column">
+            <div class="trailer">
+                <center>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=KbFWhffLM-A">
+                        <img alt="Play Trailer" src="valorant.jpg" caption= "click here" width= 300 height= 175>
+                        </a>  
+                        <figcaption>click for trailer</figcaption>
+                    </figure>
+                    <button onclick="button1()"> Buy/Play </button>
+                        <p id= "button1"> </p>
+                </center>
+            </div>
+        </div>
+        <div class="column">
+            <p><strong>Summary: </strong> Valorant is a team-based tactical shooter game that is set in the future. Players play agents and are assigned to either the attacking or defending team with each team having five players on it. Agents have special abilities, that require charges, as well as a unique ultimate ability which requires charging through kills, deaths, or spike actions. Valorant was released June 2, 2020. </p>
+        </div>
+        <div class="column">
+            <p><strong>Pros and Cons: </strong>The pros of Valorant are that it has character diversity, an emphasis on individual skill and most of the elements are skillbased. The cons that people reportes are the visuals and that it is a slower-paced game. </p>
+        </div>
+    </div>
     
+    
+<h2>Apex Legends</h2>  
+
+    <div class ="row">
+        <div class="column">
+            <div class="trailer">
+                <center>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=7Sg2dmchDE0">
+                        <img alt="Play Trailer" src="apex.jpg" width= 300 height= 175>
+                        </a>  
+                        <figcaption>click for trailer</figcaption>
+                    </figure>
+                    <button onclick="button2()"> Buy/Play </button>
+                        <p id= "button2"> </p>
+                </center>
+            </div>
+        </div>
+        <div class="column">
+            <p><strong>Summary: </strong>Apex Legends is an online multiplayer battle royale game. It features squads of three players using pre-made characters, that are called "Legends". There are alternate modes allowing for single and for two-player squads. The game is free-to-play, but the player can choose to to spend both real money and in-game currency on outfits  and new colors for weapons.</p>
+        </div>
+        <div class="column">
+            <p><strong>Pros and Cons: </strong>The pros of Apex Legends include the fast combat, the hero characters and that the Legends have unique personalities and abilities. The major con that critics mentioned is the spawn rate of weapons. </p>
+        </div>
+    </div>
+    
+    
+<h2>Demon's Souls</h2>  
+
+    <div class ="row">
+        <div class="column">
+            <div class="trailer">
+                <center>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=sSRFK_KNnsU">
+                        <img alt="Play Trailer" src="demons.jpg" width= 300 height= 175>
+                        </a> 
+                        <figcaption>click for trailer</figcaption>
+                    </figure>
+                    <button onclick="button3()"> Buy/Play </button>
+                        <p id= "button3"> </p>
+                </center>
+            </div>
+        </div>
+        <div class="column">
+            <p><strong>Summary: </strong> Demon's Souls is an action role-playing game developed by Bluepoint Games. The original was released for the PlayStation 3 in 2009. The game was released as a launch title for the PlayStation 5 in November 2020. Noe the game features new weapons, rings, armor and more. There are now multiple modes as well.</p>
+        </div>
+        <div class="column">
+            <p><strong>Pros and Cons: </strong> Reviewers have said the newer version has done a good job in terms of graphics and sounds. Another pro or con could be that the original tactics and are still applicable. Some argue there are minor issues in animation though.</p>
+        </div>
+    </div>
+
+    
+<h2>The Last of Us Part II</h2>  
+
+    <div class ="row">
+        <div class="column">
+            <div class="trailer">
+                <center>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=TXl9GI1p_Os">
+                        <img alt="Play Trailer" src="lastofus.jpg" width= 300 height= 175>
+                        </a>
+                        <figcaption>click for trailer</figcaption>
+                    </figure>
+                    <button onclick="button4()"> Buy/Play </button>
+                        <p id= "button4"> </p>
+                </center>
+            </div>
+        </div>
+        <div class="column">
+            <p><strong>Summary: </strong> The Last of Us Part II is a action-adventure game developed by Naughty Dog. It was published by Sony Interactive Entertainment for the PlayStation 4 and was released June 19, 2020. It is set five years after The Last of Us (2013). In the game, the player controls two characters in a post-apocalyptic US. The player has to use weapons to fight off humans and cannibalistic creatures.</p>
+        </div>
+        <div class="column">
+            <p><strong>Pros and Cons: </strong> Many fans felt that the Last of Us did not even need a sequel. Regardless, fans were surprised to fin that they were able to improve voice talent, introduce new tools and upgrades. The major con witht this game is that some users felt that the violence was too much that they could not finish playing.</p>
+        </div>
+    </div>
+
+<h2>Animal Crossing: New Horizons</h2>  
+
+    <div class ="row">
+        <div class="column">
+            <div class="trailer">
+                <center>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=_3YNL0OWio0">
+                        <img alt="Play Trailer" src="AnimalCrossing.jpg" width= 300 height= 175>
+                        </a>
+                        <figcaption>click for trailer</figcaption>
+                    </figure>
+                    <button onclick="button5()"> Buy/Play </button>
+                        <p id= "button5"> </p>
+                </center>
+            </div>
+        </div>
+
+        <div class="column">
+            <p><strong>Summary: </strong> Animal Crossing: New Horizons is a life simulation video game developed and published by Nintendo for the Nintendo Switch. This fifth entry was released on March 20, 2020. The player takes the role of a  character, that they can customize, who moves to a deserted island after purchasing a package from Tom Nook, a character that has been in all of the other entries as well. The player can explore the island and craft items, catch fish, and develop their island into a community. </p>
+        </div>
+        <div class="column">
+            <p><strong>Pros and Cons: </strong> The pros of Animal Crossing: New Horizons is that there is hundreds of dialog options, the real-time clock and the deep level of customization. The cons are that there are restrictive online features and the real-time clock. </p>
+        </div>
+    </div>
+
+     
+    
+<br>
+<br>
+
 <center>
-    <p><strong>Here is our previous game suggestions for Hot New Games:</strong></p>
+    <h3><strong>Here is our previous game suggestions for Hot New Games:</strong></h3>
     <br>
-    <a href="..."><img src="ClickHere.png" alt="Download Our Previous Suggestions" style="width:220px;height:110px;"></a>
+    <a href="NewGames.png" download="NewGames">
+    <img src="downloadButton.png" alt="Download" width=350 height=100>
+    </a>
 </center>
+</body>
+</html>
