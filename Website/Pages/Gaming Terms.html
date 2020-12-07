@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<head>
+		<title>Gaming terms</title>
+		<link rel = "stylesheet" 
+		 type = "text/css" 
+		 href = "gameStyle.css">
+	</head>
+	<body>
+		<h1>Important Gaming terms</h1>
+		<a href = "index.html"><button>HOMEPAGE</button></a>
+		<script type="text/javascript" src="gameJS.js"></script>
+	<div class = "flexbox">
+		<div class="leftColText">
+			<ul>
+				<li class="titleList">Chat/Voice chat terms</li>
+				<button id = "RNGButton" onclick="revealText('rngtext')" class = "VCbutton">RNG</button>
+				<li id = "rngtext" class = "VCtext">Stands for Random Number Generator. Usually a synonym for luck in games</li>
+				<button id = "ThrowButton" onclick="revealText('throwtxt')" class = "VCbutton">Throwing</button>
+				<li id = "throwtxt" class = "VCtext">Usually means that the person is losing the game in some way</li>
+				<button id = "TrollButton" onclick="revealText('trolltxt')" class = "VCbutton">Trolling</button>
+				<li id = "trolltxt" class = "VCtext">Intentionally ruining some part of the game for humor</li>
+				<button id = "MicroButton" onclick="revealText('microtxt')" class = "VCbutton">Micro</button>
+				<li id = "microtxt" class = "VCtext">Stands for micromanagement, usually some sort of metric for how efficient you are.</li>
+				<button id = "CoopButton" onclick="revealText('cooptxt')" class = "VCbutton">Co-Op</button>
+				<li id = "cooptxt" class = "VCtext">Stands for cooperative, working together for some sort of common goal in a game.</li>
+			</ul>
+		</div>
+		<div class="leftColText">
+			<ul>
+				<li class="titleList">Game types</li>
+				<button onclick = "revealText('mmotext')">MMO</button>
+				<li id = 'mmotext' class = 'gametypetext'>Stands for Massive Multiplayer Online. Signifies a big game usually with a connected world</li>
+				<button onclick = "revealText('rpgtext')">RPG</button>
+				<li id = 'rpgtext' class = 'gametypetext'>Stands for Role-Playing game. Sometimes combined with MMO's to make an MMORPG(essentially a connected world RPG game).</li>
+				<button onclick = "revealText('actiontext')">Action</button>
+				<li id = 'actiontext' class = 'gametypetext'>Usually just games with some sort of combat system that the player has to deal with.</li>
+				<button onclick = "revealText('fpstext')">FPS</button>
+				<li id = 'fpstext' class = 'gametypetext'>Stands for First-Person Shooter. Usually based on some sort of combat with weapons, and usually highly competitive.</li>
+				<button onclick = "revealText('roguetext')">Roguelike</button>
+				<li id = 'roguetext' class = 'gametypetext'>A dungeon run game. Usually there is very little permanent progress in these types of games.</li>
+				<button onclick = "revealText('sandboxtext')">Sandbox</button>
+				<li id = 'sandboxtext' class = 'gametypetext'>Essentially a game where a lot of the gameplay is made by the player. For example, a game like Minecraft is a sandbox game as you can do whatever you want.</li>
+				<button onclick = "revealText('opentext')">Open-World</button>
+				<li id = 'opentext' class = 'gametypetext'>Means that the entire world is open for you to explore, usually less streamlining and more exploration.</li>
+				<button onclick = "revealText('towertext')">Tower Defense</button>
+				<li id = 'towertext' class = 'gametypetext'>Usually smaller games that rely on you placing defenses against waves of enemies.</li>
+				<button onclick = "revealText('turntext')">Turn Based</button>
+				<li id = 'turntext' class = 'gametypetext'>Games that are turn based aren't based off of reactions - everyone has a turn to go, usually in an order.</li>
+				<button onclick = "revealText('rtstext')">RTS</button>
+				<li id = 'rtstext' class = 'gametypetext'>Stands for Real-Time Strategy. Usually heavily based on micromanegment.</li>
+			</ul>
+		</div>
+		<div class="riColText">
+			<ul>
+				<li class="titleList">General computer terms used in gaming</li>
+				<button onclick = "revealText('pctext')">PC</button>
+				<li id = 'pctext' class = 'generaltext'>Stands for Personal Computer, games on your computer.</li>
+				<button onclick = "revealText('consoletext')">Console</button>
+				<li id = 'consoletext' class = 'generaltext'>Any sort of console such as an Xbox, PS4, etc. Generally means a console connected to a TV.</li>
+				<button onclick = "revealText('mobiletext')">Mobile</button>
+				<li id = 'mobiletext' class = 'generaltext'>Any game based on some sort of mobile device, like your phone.</li>
+			</ul>
+		</div>
+	</div>
+	</body>
+</html>
