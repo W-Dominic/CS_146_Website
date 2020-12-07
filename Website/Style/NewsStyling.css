@@ -18,7 +18,7 @@ button {
 }
 .content{
  	padding:18px;
- 	display:none;
+ 	display:block;
   	overflow:hidden;
 }
 .active, .collapsible:hover {
@@ -45,6 +45,7 @@ button {
 	.flexbox-articles-featured{
 		text-align:center;
 		border:none;
+		text-decoration:none;
 	}
 	.flexbox-articles-byPOWAM{
 		text-align:center;

@@ -1,6 +1,6 @@
 var menu = document.querySelector(".collapsible");
 var content = document.querySelector(".content");
-var vis = false;
+var vis = true;
 
 function collapse(){
 	if (vis == false){
