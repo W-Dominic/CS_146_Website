@@ -9,15 +9,20 @@ button {
 	font-size: 20px;
 	margin:0;
 }
-.menu{
-	background-color:#19B8E6;
+.collapsible{
+	background-color:#3b6aa3;
 	display:block;
 	border:none;
-	color:#D8DEE9;
-	margin:0;
-	font-size: 20px;
-	width:188px;
-	overflow:auto;
+	outline:none;
+	color:white;
+}
+.content{
+ 	padding:18px;
+ 	display:none;
+  	overflow:hidden;
+}
+.active, .collapsible:hover {
+  	background-color: #2e3440;
 }
 .banner {
 	border: 2px solid #D8DEE9;
@@ -52,7 +57,7 @@ button {
 	margin:0;
 	position:fixed;
 	overflow: auto;
-	font-size:20px;
+	font-size:15px;
 }
 .sidebar a{
 	display:block;
