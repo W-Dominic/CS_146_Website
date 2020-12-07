@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>POWAM</title>
+<!--This will be implemented when javascript pages come into play:	<script type="text/javascript" src="..."></script> -->
+
+<link rel="stylesheet" type="text/css" href="Style/indexStyle1.css">
+<script src="indexCode.js"></script>
+</head>
+<body>
+
+<!--This is going to be a unifying aspect across all pages when the appearance becomes more important, a banner across the length of the screen
+	showing the name of the page-->
+<div id="pageBanner">
+	<p>POWAM Homepage</p>
+</div>
+
+<!--This row only contains two elements and thus is the two row while the rows utilized after this are three elements and thus triple rows-->
+<div class="twoRow">
+	<div class="twoColumn">
+				<div class="photoAlbum">
+				<div id="pic1">
+					<img src="logo.jpg">
+				</div>
+				<div id="pic2">
+					<img src="industry.jpg">
+				</div>
+				<div id="pic3">
+					<img src="new.jpg">
+				</div>
+				<div id="pic4">
+					<img src="submission.jpg">
+				</div>
+			</div>
+			<button onclick="rotation()" type="button">Change Picture</button>
+		<!--<img src="Images/tempLogo.jpg">	-->
+	</div>
+	<div class="twoColumn">
+		<p>Welcome to the homepage of POWAM, a website for bringing new people into the video gaming community. Here we encourage a warm and welcoming community which empowers new people interested in video games and builds their confidence in interacting with the established gaming community. While our goal is to assist new gamers, all are welcome here. Feel free to browse our site for new or old game recommendations, look up terminology that you might have heard thrown around, or read up on the latest news on hardware or the industry itself.</p>
+	</div>
+</div>
+
+<!--Top row of the links leading to the different parts of the website. Will be aligned properly with CSS-->
+<div class="tripleRow">
+	<div class="threeColumn">
+		<a href="Gaming Terms.html"><img src="terms.jpg"></a>
+	</div>
+	<div class="threeColumn">
+		<a href="CoolRetroGames.html"><img src="retro.jpg"></a>
+	</div>
+	<div class="threeColumn">
+		<a href="HotNewGames.html"><img src="new.jpg"></a>
+	</div>
+</div>
+
+<!--Bottom row of the links leading to the different parts of the website-->
+<div class="tripleRow">
+	<div class="threeColumn">
+		<a href="GamingNews.html"><img src="industry.jpg"></a>
+	</div>
+	<div class="threeColumn">
+		<a href="PCConsoleNews.html"><img src="hardware.jpg"></a>
+	</div>
+	<div class="threeColumn">
+		<a href="submission.html"><img src="submission.jpg"></a>
+	</div>
+</div>
+
+</body>
+</html>
