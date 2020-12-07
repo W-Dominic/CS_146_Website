@@ -76,7 +76,7 @@ h2, h3{
     }
    .column {
         flex-basis: auto;
-        flex direction: column; 
+        flex-direction: column; 
         justify-content: center; 
         padding: 40px;
         font-family: "Lucida Console", Courier, monospace;
