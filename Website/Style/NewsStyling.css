@@ -9,6 +9,10 @@ button {
 	font-size: 20px;
 	margin:0;
 }
+a {
+	color:white;
+	text-decoration:none;
+}
 .collapsible{
 	background-color:#3b6aa3;
 	display:block;
@@ -37,6 +41,7 @@ button {
 }
 
 .flexbox-articles{
+	padding:5px;
 	margin-left: 200px;
 	margin-top:5px;
 	margin-bottom: 5px;
@@ -46,6 +51,12 @@ button {
 		text-align:center;
 		border:none;
 		text-decoration:none;
+	}
+	.flexbox-articles-featured1{
+		text-align:center;
+	}
+	.flexbox-articles-featured2{
+		text-align:center;
 	}
 	.flexbox-articles-byPOWAM{
 		text-align:center;
@@ -78,4 +89,13 @@ img {
 	margin-top: 1%;
 	margin-bottom: 1%;
 }	
-
+form {
+	font-size: 200%;
+	text-align:left;
+	background-color:#3b6aa3;
+	color: #D8DEE9;
+	padding:5px;	
+}
+.submit {
+	border: 2px solid #D8DEE9; 
+}

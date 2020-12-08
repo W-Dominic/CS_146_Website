@@ -2,6 +2,7 @@
 <html>
 <head>
 	<html lang="en">
+	<meta charset="utf-8">
 	<title> Gaming News </title>
 
 	<link rel = "stylesheet"  href= "../Style/NewsStyling.css" >
@@ -62,7 +63,23 @@
 		<img class="img3" src="../Style/Images/kidyelling.jpg">
 		</img>
 		</div>
-	
+		
+		<div class="flexbox-articles flexbox-articles-form">
+		<h4>There is a challenge hidden on this site, try typing "secret" in the comment box</h4>
+		
+		<form id="comment" onsubmit="execute()">
+			<br>
+			<label for="Article">Article(1-5):</label>
+			<br>
+			<input type="text" id="Article" name="Article">
+			<br>
+			<label for="Comment">Comment:</label>
+			<br>
+			<input type="text" id="Comment" name="Comment">
+			</br>
+			<button class="submit" type="button">Submit</button>
+		</div>
+
 	</div>
 <body>
 	<script src = "../Javascript/NewsScripts.js"i></script>
