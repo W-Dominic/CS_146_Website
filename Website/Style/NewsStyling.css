@@ -99,3 +99,15 @@ form {
 .submit {
 	border: 2px solid #D8DEE9; 
 }
+@media only screen and (max-width:500px){
+	.sidebar {
+		font-size:10px;
+	}
+	.sidebar a{
+		padding:20px;
+	}
+	.flexbox-articles{
+		margin-left:151px;
+	}
+
+}
